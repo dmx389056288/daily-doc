@@ -2,6 +2,7 @@
    <div id="aside">
        <div class="" @click="$router.push({path:'/swiper'})">swiper</div>
        <div class="" @click="$router.push({path:'/lineClamp'})">line-clamp</div>
+       <div class="" @click="$router.push({path:'/Calendar'})">Calendar</div>
    </div>
 </template>
 <script lang='ts'>

@@ -5,6 +5,7 @@ import { createRouter,createWebHashHistory } from 'vue-router'
     { path: '/swiper', name: 'Swiper', component: () => import(/* webpackChunkName: "introduce" */ '../pages/Swiper.vue') },
     { path: '/details', name: 'Detail', component: () => import(/* webpackChunkName: "introduce" */ '../pages/Details.vue') },
     { path: '/lineClamp', name: 'LineClamp', component: () => import(/* webpackChunkName: "LineClamp" */ '../pages/LineClamp.vue') },
+    { path: '/Calendar', name: 'Calendar', component: () => import(/* webpackChunkName: "LineClamp" */ '../pages/Calendar.vue') },
  ]
  const Router = createRouter({
     history:createWebHashHistory(),
